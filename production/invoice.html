@@ -15,7 +15,7 @@
     <link href="../vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <!-- NProgress -->
     <link href="../vendors/nprogress/nprogress.css" rel="stylesheet">
-    
+
     <!-- Custom styling plus plugins -->
     <link href="../build/css/custom.min.css" rel="stylesheet">
   </head>
@@ -141,7 +141,7 @@
                         <li><a href="#level1_2">Level One</a>
                         </li>
                     </ul>
-                  </li>                  
+                  </li>
                   <li><a href="javascript:void(0)"><i class="fa fa-laptop"></i> Landing Page <span class="label label-success pull-right">Coming Soon</span></a></li>
                 </ul>
               </div>
@@ -169,7 +169,7 @@
         </div>
 
         <!-- top navigation -->
-        <div class="top_nav">
+        <div class="top_nav hidden-print">
           <div class="nav_menu">
             <nav>
               <div class="nav toggle">
@@ -273,7 +273,7 @@
                 <h3>Invoice <small>Some examples to get you started</small></h3>
               </div>
 
-              <div class="title_right">
+              <div class="title_right hidden-print">
                 <div class="col-md-5 col-sm-5 col-xs-12 form-group pull-right top_search">
                   <div class="input-group">
                     <input type="text" class="form-control" placeholder="Search for...">
@@ -455,9 +455,9 @@
                       <!-- this row will not appear when printing -->
                       <div class="row no-print">
                         <div class="col-xs-12">
-                          <button class="btn btn-default" onclick="window.print();"><i class="fa fa-print"></i> Print</button>
-                          <button class="btn btn-success pull-right"><i class="fa fa-credit-card"></i> Submit Payment</button>
-                          <button class="btn btn-primary pull-right" style="margin-right: 5px;"><i class="fa fa-download"></i> Generate PDF</button>
+                          <button class="btn btn-default hidden-print" onclick="window.print();"><i class="fa fa-print"></i> Print</button>
+                          <button class="btn btn-success pull-right hidden-print"><i class="fa fa-credit-card"></i> Submit Payment</button>
+                          <button class="btn btn-primary pull-right hidden-print" style="margin-right: 5px;"><i class="fa fa-download"></i> Generate PDF</button>
                         </div>
                       </div>
                     </section>
